@@ -253,3 +253,31 @@ int main(void)
 	printf("최대 : %d, 최소 : %d\n", *maxPtr, *minPtr);
 }
 */
+/*
+#include <stdio.h>
+#include <stdlib.h>  // rand()함수를 포함하는 라이브러리
+#include <time.h>   // time()함수를 포함하는 라이브러리
+
+int main(void)
+{
+
+	srand(time(NULL)); // 매번 다른 난수가 발생하도록 하기 위해서 사용
+
+	int i;
+	char ch[3];
+
+	printf("가위? 바위? 보? : ");
+
+	gets(ch, sizeof(ch[i]), stdin);
+
+	char rps[3][5] = { "가위", "바위", "보" };
+
+	int random = rand() % 3;
+	printf("당신은 %s 선택, 컴퓨터는 %s 선택, ", ch, rps[random]);
+
+	if (!strcmp(ch, rps[random]))
+	{
+		puts("비겼습니다.");
+	}
+
+}*/
