@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -19,11 +19,4 @@ int main(void)
 	free(ptr2);
 
 	return 0;
-}*/
-//malloc 함수는 메모리 공간의 할당에 실패할 경우 NULL을 반환함.
-/*
-int* ptr = (int*)malloc(sizeof(int));
-if (ptr == NULL)
-{
-	//메모리 할당 실패에 따른 오류 처리
-}*/
+}

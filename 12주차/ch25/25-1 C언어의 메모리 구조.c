@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 void func2(int n)
 {
@@ -17,4 +17,4 @@ int main(void)
 	printf("%d\n", num1);
 	func1(num1);
 	return 0;
-}*/
+}

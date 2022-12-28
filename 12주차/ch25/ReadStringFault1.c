@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 char name[30];
 char* ReadUserName(void)
@@ -13,13 +13,13 @@ int main(void)
 	char* name1;
 	char* name2;
 	name1 = ReadUserName();
-	//Á¾·áÇÏ°í ³ª¿Â ¼ø°£ nameÀÌ¶ó´Â ¸Ş¸ğ¸® °ø°£ÀÌ ÇØÁ¦µÊ
+	//ì¢…ë£Œí•˜ê³  ë‚˜ì˜¨ ìˆœê°„ nameì´ë¼ëŠ” ë©”ëª¨ë¦¬ ê³µê°„ì´ í•´ì œë¨
 	printf("name1: %s\n", name1);
 	name2 = ReadUserName();
 	printf("name2: %s\n", name2);
-	//°°ÀÌ ÇÒ´ç¹Ş¾Æ¼­ ÀÌ¸§ÀÌ ¹Ù²î°Ô µÇ¸é ¿À¹ö¶óÀÌµùµÊ.
+	//ê°™ì´ í• ë‹¹ë°›ì•„ì„œ ì´ë¦„ì´ ë°”ë€Œê²Œ ë˜ë©´ ì˜¤ë²„ë¼ì´ë”©ë¨.
 	printf("name1: %s\n", name1);
 	printf("name2: %s\n", name2);
 
 	return 0;
-}*/
+}

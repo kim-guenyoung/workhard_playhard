@@ -1,4 +1,3 @@
-/*
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +8,7 @@ int main(void)
     int arrlen = 5;
     int* ptr = (int*)calloc(arrlen, sizeof(int));
 
-    printf("Á¤¼öÀÔ·Â: ");
+    printf("ì •ìˆ˜ ìž…ë ¥ : ");
     scanf("%d", &num);
 
     while (num != -1)
@@ -22,15 +21,15 @@ int main(void)
         ptr[i] = num;
         i++;
 
-        printf("Á¤¼öÀÔ·Â: ");
+        printf("ì •ìˆ˜ ìž…ë ¥ : ");
         scanf("%d", &num);
     }
 
-    printf("¹è¿­ Ãâ·Â: ");
+    printf("ë°°ì—´ ìž…ë ¥ : ");
     for (i = 0; i < arrlen; i++)
         printf("%d ", ptr[i]);
     
     free(ptr);
 
     return 0;
-}*/
+}
